@@ -1,0 +1,37 @@
+.cards-row {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 1rem 0;
+}
+
+.card {
+  flex: 1 0 8rem;
+  color: #aaa;
+  transition: transform 0.2s;
+}
+
+.card:hover,
+.card--selected {
+  color: white;
+}
+
+.card:hover img,
+.card--selected img {
+  border: 2px solid white;
+}
+
+.card__image {
+  border-radius: 0.5rem;
+}
+
+.card__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.card__body {
+  padding: 0 0.5rem;
+}
