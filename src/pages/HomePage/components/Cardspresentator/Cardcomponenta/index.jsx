@@ -19,7 +19,6 @@ export const Cardcomponenta = ({
           src={`http://localhost:4000/assets/${image}`}
         />
         <div className="card__title">{nazov}</div>
-        <div className="card__body">{popis}</div>
       </div>
     </>
   );

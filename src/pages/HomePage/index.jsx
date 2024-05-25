@@ -37,7 +37,7 @@ export const HomePage = () => {
           />
           <Roomselection
             nazov={pokoje[vybranyPokoj].nazov}
-            image={`http://localhost:4000/api/data${pokoje[vybranyPokoj].image}`}
+            image={pokoje[vybranyPokoj].image}
             popis={pokoje[vybranyPokoj].popis}
           />
         </main>

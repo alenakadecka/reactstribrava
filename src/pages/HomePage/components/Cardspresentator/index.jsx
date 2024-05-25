@@ -7,7 +7,7 @@ export const Cardspresentator = ({ pokojeSeznam, onClickSelectRoom }) => {
       <section className="dark">
         <div className="container">
           <h2>Naše pokoje</h2>
-          <p>vyberte si, ve kterém pokoji si nejvíce oddýchnete.</p>
+          <p>Vyberte si, ve kterém pokoji si nejvíce oddýchnete.</p>
           <div className="cards-row">
             {pokojeSeznam.map((pokoj, index) => (
               <Cardcomponenta
